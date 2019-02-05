@@ -2,10 +2,9 @@ C:\Users\shauns\source\repos\RabbitConsole\RabbitConsole\bin\Debug\netcoreapp2.2
 C:\Users\shauns\source\repos\RabbitConsole\RabbitConsole\bin\Debug\netcoreapp2.2\RabbitConsole.runtimeconfig.json
 C:\Users\shauns\source\repos\RabbitConsole\RabbitConsole\bin\Debug\netcoreapp2.2\RabbitConsole.runtimeconfig.dev.json
 C:\Users\shauns\source\repos\RabbitConsole\RabbitConsole\bin\Debug\netcoreapp2.2\RabbitConsole.dll
-C:\Users\shauns\source\repos\RabbitConsole\RabbitConsole\obj\Debug\netcoreapp2.2\RabbitConsole.csprojAssemblyReference.cache
+C:\Users\shauns\source\repos\RabbitConsole\RabbitConsole\bin\Debug\netcoreapp2.2\RabbitConsole.pdb
 C:\Users\shauns\source\repos\RabbitConsole\RabbitConsole\obj\Debug\netcoreapp2.2\RabbitConsole.csproj.CoreCompileInputs.cache
 C:\Users\shauns\source\repos\RabbitConsole\RabbitConsole\obj\Debug\netcoreapp2.2\RabbitConsole.AssemblyInfoInputs.cache
 C:\Users\shauns\source\repos\RabbitConsole\RabbitConsole\obj\Debug\netcoreapp2.2\RabbitConsole.AssemblyInfo.cs
-C:\Users\shauns\source\repos\RabbitConsole\RabbitConsole\bin\Debug\netcoreapp2.2\RabbitConsole.pdb
 C:\Users\shauns\source\repos\RabbitConsole\RabbitConsole\obj\Debug\netcoreapp2.2\RabbitConsole.dll
 C:\Users\shauns\source\repos\RabbitConsole\RabbitConsole\obj\Debug\netcoreapp2.2\RabbitConsole.pdb

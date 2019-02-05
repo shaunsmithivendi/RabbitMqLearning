@@ -2,15 +2,13 @@
 using RabbitMQ.Client.Events;
 using System;
 using System.Text;
-using System.Collections.Generic;
 
 namespace RabbitRecieve
 {
     public class Recieve
     {
-        public string Receieve()
+        public void Receieve()
         {
-            string message = "No message found";
             var factory = new ConnectionFactory() { HostName = "localhost", Port = 32768 };
             using (var connection = factory.CreateConnection())
             using (var channel = connection.CreateModel())
@@ -25,14 +23,16 @@ namespace RabbitRecieve
                 consumer.Received += (model, ea) =>
                 {
                     var body = ea.Body;
-                    message = Encoding.UTF8.GetString(body);
+                    var message = Encoding.UTF8.GetString(body);
+                    Console.WriteLine(" [x] Received {0}", message);
                 };
                 channel.BasicConsume(queue: "MessageTest",
                                      autoAck: true,
                                      consumer: consumer);
-                
+
+                Console.WriteLine("Press any key to confirm Message");
+                Console.ReadLine();
             }
-            return message;
         }
     }
 }
